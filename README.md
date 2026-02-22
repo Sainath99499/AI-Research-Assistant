@@ -28,3 +28,10 @@ User → Streamlit → FastAPI → ML Engine → Results
 ## ▶️ How to Run
 
 Backend:
+uvicorn api:app --reload
+Frontend:
+streamlit run frontend.py
+
+## 🎯 Project Objective
+
+To build a simplified AutoML system that automates preprocessing, model training, comparison, and reporting for user-uploaded datasets.
